@@ -1,0 +1,3 @@
+[submodule "mind_survey_app"]
+	path = mind_survey_app
+	url = ./mind_survey_app
