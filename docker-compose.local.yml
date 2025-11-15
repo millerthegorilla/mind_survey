@@ -13,6 +13,7 @@ services:
     depends_on:
       - postgres
       - redis
+      - mailpit
     volumes:
       - .:/app:z
     env_file:
@@ -47,6 +48,7 @@ services:
     depends_on:
       - redis
       - postgres
+      - mailpit
     ports: []
     command: /start-celeryworker
 
@@ -57,6 +59,7 @@ services:
     depends_on:
       - redis
       - postgres
+      - mailpit
     ports: []
     command: /start-celerybeat
 
@@ -67,3 +70,9 @@ services:
     ports:
       - '5555:5555'
     command: /start-flower
+
+  mailpit:
+    image: axllent/mailpit:latest
+    container_name: mind_survey_app_local_mailpit
+    ports:
+      - "8025:8025"
