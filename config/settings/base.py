@@ -324,3 +324,9 @@ SOCIALACCOUNT_FORMS = {"signup": "mind_survey_app.users.forms.UserSocialSignupFo
 
 # Your stuff...
 # ------------------------------------------------------------------------------
+SURVEY_EMAIL_FROM = ''
+SURVEY_ANONYMOUS_VIEW_LIST = True
+
+SURVEY_WELCOME_MESSAGE_TITLE = 'Welcome to the Mind survey app'
+SURVEY_WELCOME_MESSAGE_TAGLINE = 'Surveys for Mind Jersey'
+SURVEY_MASTER_TEMPLATE = "pages/home.html"

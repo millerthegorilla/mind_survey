@@ -77,3 +77,14 @@ INSTALLED_APPS += ["django_extensions"]
 CELERY_TASK_EAGER_PROPAGATES = True
 # Your stuff...
 # ------------------------------------------------------------------------------
+
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": "mind_survey_app",
+        "USER": "postgres_debug_user",
+        "PASSWORD": "uA7_5JvYrP3pPPOM6iaC",
+        "HOST": "postgres",
+        "PORT": "5432",
+    }
+}
