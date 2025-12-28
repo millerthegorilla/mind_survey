@@ -10,3 +10,4 @@ sentry-sdk==2.30.0  # https://github.com/getsentry/sentry-python
 # ------------------------------------------------------------------------------
 django-anymail[brevo]==13.0  # https://github.com/anymail/django-anymail
 django-form-surveys==2.5.0 # https://github.com/irfanpule/django-form-surveys
+django-tailwind==4.4.2  # 
