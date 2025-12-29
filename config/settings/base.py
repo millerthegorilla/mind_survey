@@ -344,4 +344,4 @@ TAILWIND_STANDALONE_BUILD_COMMAND_ARGS = (
     "-i ../mind_survey_app/static_src/src/styles.css -o ../mind_survey_app/static/css/styles.css"
 )
 
-TAILWIND_CSS_PATH = "static/css/styles.css"
+TAILWIND_CSS_PATH = "css/styles.css"
