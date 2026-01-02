@@ -37,4 +37,3 @@ pytest-django==4.11.1  # https://github.com/pytest-dev/pytest-django
 django-form-surveys @git+https://github.com/millerthegorilla/django-form-surveys@new_changes
 # tailwind
 django-tailwind[cookiecutter]
-djlint
