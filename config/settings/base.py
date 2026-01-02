@@ -337,11 +337,11 @@ SURVEY_ADMIN_MASTER_TEMPLATE = "pages/home.html"
 TAILWIND_APP_NAME = 'mind_survey_app'
 
 TAILWIND_STANDALONE_START_COMMAND_ARGS = (
-    "-i ../mind_survey_app/static_src/src/styles.css -o ../mind_survey_app/static/css/styles.css --watch"
+    "-i ../mind_survey_app/static_src/src/styles.css -o ../mind_survey_app/static/mind_survey_app/css/styles.css --watch"
 )
 
 TAILWIND_STANDALONE_BUILD_COMMAND_ARGS = (
-    "-i ../mind_survey_app/static_src/src/styles.css -o ../mind_survey_app/static/css/styles.css"
+    "-i ../mind_survey_app/static_src/src/styles.css -o ../mind_survey_app/static/mind_survey_app/css/styles.css"
 )
 
 TAILWIND_CSS_PATH = "css/styles.css"
